@@ -54,7 +54,7 @@ Clone this repository to your local machine using the following command:
 git clone https://github.com/onepiece-coding/To-Do-List-App-with-HTML-CSS-JavaScript-and-Local-Storage-Beginner-Friendly-Project.git
 ```
 
-2. Open the Project
+### 2. Open the Project
    
 Navigate to the project folder and open index.html in your web browser:
 
