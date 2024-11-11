@@ -1,0 +1,217 @@
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+html {
+
+    font-size: 62.5%; /* 1rem = 10px */
+
+}
+
+body {
+
+    font-family: "Rubik", sans-serif;
+
+    display: flex;
+
+    justify-content: center;
+
+}
+
+.todo-list-app {
+
+    width: 600px;
+
+    max-width: 100%;
+
+    padding: 1.6rem;
+
+}
+
+.todo-list-form {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 1.6rem;
+
+    margin-bottom: 1.6rem;
+
+}
+
+.todo-list-add-task,
+.todo-list-app-categories,
+.todo-list-add-btn {
+
+    padding: 1.2rem;
+
+    border-radius: 9px;
+
+    border: 2px solid #ccc;
+
+    font-size: 1.4rem;
+
+}
+
+.todo-list-add-task:focus {
+
+    outline: none;
+
+}
+
+.todo-list-add-btn {
+
+    background-color: #ccc;
+
+    cursor: pointer;
+
+}
+
+.categories-tabs {
+
+    margin-bottom: 1.6rem;
+
+    list-style: none;
+
+    display: flex;
+
+}
+
+.category-tab {
+
+    padding: 1.2rem;
+
+    font-size: 1.4rem;
+
+    cursor: pointer;
+
+    border-bottom: 2px solid #ccc;
+
+}
+
+.category-tab.active {
+
+    color: #55B58A;
+
+    border-color: #55B58A;
+
+}
+
+.tasks {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 1.6rem;
+
+}
+
+.task {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+}
+
+.task > div:first-child {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 1.2rem;
+
+}
+
+.task > div:first-child label {
+
+    width: 16px;
+
+    height: 16px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 50%;
+
+    cursor: pointer;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+.task>div:first-child label i {
+
+    font-size: 1rem;
+
+}
+
+.task>div:first-child input:checked + label {
+
+    background-color: #55B58A;
+
+}
+
+.task-title {
+
+    font-size: 1.4rem;
+
+}
+
+.task>div:first-child input:checked ~ .task-title {
+
+    text-decoration: line-through;
+
+}
+
+.task>div:first-child input:checked + label i {
+
+    color: #fff;
+
+}
+
+.todo-app-actions {
+
+    display: flex;
+
+    gap: 1.2rem;
+
+}
+
+.todo-app-actions button {
+
+    padding: 0.8rem;
+
+    border: 2px solid #ccc;
+
+    background-color: transparent;
+
+    border-radius: 7px;
+
+    cursor: pointer;
+
+}
+
+.tasks .empty {
+
+    font-size: 1.4rem;
+
+    letter-spacing: 0.5px;
+
+    color: red;
+
+}
