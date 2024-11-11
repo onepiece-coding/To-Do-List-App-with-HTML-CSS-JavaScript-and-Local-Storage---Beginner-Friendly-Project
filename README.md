@@ -2,7 +2,7 @@
 
 A responsive To-Do List web application built using HTML, CSS, and JavaScript. This app allows users to create, edit, delete, and filter tasks by category. Data is saved in Local Storage, so tasks persist even after refreshing the page.
 
-![To-Do List App Preview](https://to-do-list-app-with-html-css-java-script-and-local-f282qsdce.vercel.app/)
+[To-Do List App Preview](https://to-do-list-app-with-html-css-java-script-and-local-f282qsdce.vercel.app/)
 
 ## Table of Contents
 
@@ -154,4 +154,4 @@ Possible improvements for this project include:
 
 Feel free to reach out if you have any questions or need assistance with the project! Happy coding!
 
-![Author Linkedin](https://www.linkedin.com/in/lahcen-alhiane-0799ba303/)
+[Author Linkedin](https://www.linkedin.com/in/lahcen-alhiane-0799ba303/)
