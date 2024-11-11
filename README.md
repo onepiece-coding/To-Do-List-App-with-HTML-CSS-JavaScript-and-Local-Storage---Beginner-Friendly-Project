@@ -60,6 +60,7 @@ Navigate to the project folder and open index.html in your web browser:
 
 ```bash
 cd To-Do-List-App-with-HTML-CSS-JavaScript-and-Local-Storage-Beginner-Friendly-Project
+
 open index.html
 ```
 
