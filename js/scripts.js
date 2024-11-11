@@ -143,6 +143,8 @@ function createTask(task) {
 
         todoListAddTaskEl.value = task.title;
 
+        todoListAppCategoriesEl.value = task.category;
+
         todoListAddBtnEl.textContent = "Edite Task";
 
     });
